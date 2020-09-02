@@ -12,7 +12,11 @@ python api.py (enable host)
 Query:
 
 *import requests
+
 *url='http://127.0.0.1:5000/'
+
 *params={'query':'The Great Gatsby'}
+
 *response= requests.get(úrl,params)
+
 *response.json()
